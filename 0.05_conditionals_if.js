@@ -1,18 +1,18 @@
 //if statements: Are used to tell JS which statements to execute based on a condition
 
-var isOn=true;
-var isHot=true;
+var isEmployed=true;
+var isMale=true;
 
-if(isOn){
-	console.log("The light is on")
+if(isEmployed){
+	console.log("Jake works for ICI")
 }
 
 //Shorthand for checking for true
 
 
 //longhand for checking for true
-if(isOn===true){
-	console.log("The light is still on")
+if(isEmployed===true){
+	console.log("Jake still works for ICI")
 }
 
 //Conditional Operators
@@ -20,16 +20,16 @@ if(isOn===true){
 //OR  ||
 //NOT ! (that inverts what the value is)
 
-isOn=true;
-isHot=true;
-if(isOn&&isHot){
-	console.log("The light is on and it is hot");
+isEmployed=true;
+isMale=true;
+if(isEmployed&&isMale){
+	console.log("Jake works for ICI and is male");
 }
 
-if(isOn||isHot){
+if(isEmployed||isMale){
 	console.log("I'm not sure what to say");
 }
 
-if(!isOn){
-	console.log("The light is not on");
+if(!isEmployed){
+	console.log("Jake does not work for ICI");
 }

@@ -5,24 +5,24 @@ console.log("I'm intercontinental when I eat French Toast");
 
 var tweet = "Kanye is broke. No joke!"
 console.log(tweet);
-var username='tifttrusty';
+var username='jdocking';
 console.log(username);
 
 var password="2345password9!"
 console.log(password)
 
-var birthCity = "Indianapolis";
-var birthState="Indiana";
+var birthCity = "Evanston";
+var birthState="Illinois";
 var commaSpace=",";
 console.log(birthCity+commaSpace+birthState)
 //concatenate
 
 //Mixing strings & integers
-var agInAugust = 40;
-var highSchool="Carmel HS"
-var graduatedHS=1994;
+var ageInOctober = 30;
+var highSchool="Peters Township HS"
+var graduatedHS=2006;
 console.log(highSchool+commaSpace+graduatedHS);
-console.log("My age in August:", agInAugust);
+console.log("My age in October:", ageInOctober);
 
 //I graduated from <hs> in <year>
 var hs="Peters Township"

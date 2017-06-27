@@ -3,11 +3,11 @@
 var emptyObject={};
 
 
-var johnQualls={ 
+var jakeDocking={ 
 	//Properties
-	name :"johnQualls",
-	age  :49,
-	vocation:"President of Elevent Fifty Academy",
+	name :"jakeDocking",
+	age  :29,
+	vocation:"Policy and Research Analyst at ICI",
 	isRetired:false,
 	//Methods
 	greeting:function(){
@@ -17,15 +17,15 @@ var johnQualls={
 		console.log("Nice to meet you, I am "+this.name+"."+" I am "+this.age);
 	},
 };
-johnQualls.ageOf();
+jakeDocking.ageOf();
 console.log("#############################################");
 
-johnQualls.greeting();
+jakeDocking.greeting();
 console.log("####################################");
-console.log(johnQualls);
-console.log(johnQualls.name);
-console.log(johnQualls.age);
-console.log(johnQualls.middleName);   //undefined
+console.log(jakeDocking);
+console.log(jakeDocking.name);
+console.log(jakeDocking.age);
+console.log(jakeDocking.middleName);   //undefined
 console.log("-----------");
 
 var animal={

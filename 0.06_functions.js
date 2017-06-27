@@ -1,6 +1,7 @@
+
 //Functions: executes action or actions and allows us to reuse code without retyping it and makes code cleaner
 
-function hello()
+function hello(){};
 
 function printOneNumber(){
 	console.log(1);
@@ -10,7 +11,7 @@ printOneNumber();
 
 function divider(){
 	console.log("--------------");
-}	I
+};
 
 divider();
 
@@ -78,9 +79,9 @@ console.log(multiply(3,8))
 function addNames (firstname, lastname){
 	return firstname+lastname;
 
-	console.log(addNames"Jake ", "Docking" ))}
+	console.log(addNames("Jake ", "Docking" ))};
 
 //Loops(small preview)
 
-for(var i=0;i<5;i++)}
-	divider();
+for(var i=0;i<5;i++){
+	divider()};

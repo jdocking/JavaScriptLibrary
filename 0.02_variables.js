@@ -6,13 +6,13 @@ var z=x+y;
 console.log(z);
 //naming
 //name variables anything
-var age=42;
+var age=29;
 var spaghetti=1000;
 
 //Camel Casing
-var numberOfGrammysIHaveWon=0;
-var myBirthYear=1975;
-var newNumber=(z*numberOfGrammysIHaveWon);
+var numberofChildrenIHave=0;
+var myBirthYear=1987;
+var newNumber=(z*numberofChildrenIHave);
 console.log(newNumber);
 
 //Shorthand Operators
@@ -26,8 +26,8 @@ spaghetti%100;
 console.log(spaghetti);
 
 //Using the var for a value interchangeable
-var ageInAugust=age+1;
-console.log(ageInAugust); 
+var ageInOctober=age+1;
+console.log(ageInOctober); 
 var eleven=11;
 console.log(eleven*eleven);
 console.log()

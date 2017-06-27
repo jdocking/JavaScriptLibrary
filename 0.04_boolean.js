@@ -4,10 +4,10 @@ var tired=false;
 var awake=true;
 var hungry=true;
 var sad=false;
-var happyToWorkwithYall=true
+var happyToWorkwithJoey=true
 var corny=true
 
-console.log(corny);
+console.log(happyToWorkwithJoey);
 
 //comparisons
 //== Equality
@@ -30,7 +30,7 @@ console.log("Two is greater than one? " + (2>1));
 console.log("-------");
 
 
-//When check for equality, you always want to use === ove the == in JavaScript
+//When check for equality, you always want to use === over the == in JavaScript
 
 2=="2"; //true
 2==="2"; //false
